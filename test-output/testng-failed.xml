@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.prakash.automation.businessScripts.FlipkartElectronicsPOM">
+        <methods>
+          <include name="moduleElectronics"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="EndTest"/>
+        </methods>
+      </class> <!-- com.prakash.automation.businessScripts.FlipkartElectronicsPOM -->
+      <class name="com.prakash.automation.businessScripts.FlipkartLoginTestPOM">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="reTest"/>
+          <include name="ExtentReport"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="beforeMethod"/>
+          <include name="EndTest"/>
+        </methods>
+      </class> <!-- com.prakash.automation.businessScripts.FlipkartLoginTestPOM -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

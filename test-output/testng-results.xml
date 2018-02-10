@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25746" started-at="2018-01-26T07:41:54Z" finished-at="2018-01-26T07:42:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="25746" started-at="2018-01-26T07:41:54Z" finished-at="2018-01-26T07:42:20Z">
+      <class name="com.prakash.automation.businessScripts.FlipkartLoginTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.prakash.automation.businessScripts.FlipkartLoginTest@343f4d3d]" name="openBrowser" is-config="true" duration-ms="7484" started-at="2018-01-26T13:11:46Z" finished-at="2018-01-26T13:11:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="ExtentReport()[pri:0, instance:com.prakash.automation.businessScripts.FlipkartLoginTest@343f4d3d]" name="ExtentReport" is-config="true" duration-ms="522" started-at="2018-01-26T13:11:54Z" finished-at="2018-01-26T13:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReport -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.prakash.automation.businessScripts.FlipkartLoginTest@343f4d3d]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2018-01-26T13:11:54Z" finished-at="2018-01-26T13:11:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.prakash.automation.businessScripts.FlipkartLoginTest.login() throws java.io.IOException,com.prakash.automation.Utilities.ExceptionHandle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.prakash.automation.businessScripts.FlipkartLoginTest@343f4d3d]" name="login" duration-ms="23358" started-at="2018-01-26T13:11:54Z" finished-at="2018-01-26T13:12:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.prakash.automation.businessScripts.FlipkartLoginTest@343f4d3d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-26T13:12:18Z" finished-at="2018-01-26T13:12:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=FlipkartLoginTest.login()[pri:0, instance:com.prakash.automation.businessScripts.FlipkartLoginTest@343f4d3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EndTest()[pri:0, instance:com.prakash.automation.businessScripts.FlipkartLoginTest@343f4d3d]" name="EndTest" is-config="true" duration-ms="927" started-at="2018-01-26T13:12:18Z" finished-at="2018-01-26T13:12:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndTest -->
+        <test-method status="PASS" signature="reTest()[pri:0, instance:com.prakash.automation.businessScripts.FlipkartLoginTest@343f4d3d]" name="reTest" is-config="true" duration-ms="0" started-at="2018-01-26T13:12:20Z" finished-at="2018-01-26T13:12:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.prakash.automation.businessScripts.FlipkartLoginTest@343f4d3d]" name="closeBrowser" is-config="true" duration-ms="2606" started-at="2018-01-26T13:12:20Z" finished-at="2018-01-26T13:12:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.prakash.automation.businessScripts.FlipkartLoginTest -->
+      <class name="com.prakash.automation.businessScripts.FlipkartElectronicsModule">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.prakash.automation.businessScripts.FlipkartElectronicsModule@53b32d7]" name="beforeMethod" is-config="true" duration-ms="15" started-at="2018-01-26T13:12:19Z" finished-at="2018-01-26T13:12:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.prakash.automation.businessScripts.FlipkartElectronicsModule.moduleElectronics() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="moduleElectronics()[pri:0, instance:com.prakash.automation.businessScripts.FlipkartElectronicsModule@53b32d7]" name="moduleElectronics" duration-ms="716" started-at="2018-01-26T13:12:19Z" finished-at="2018-01-26T13:12:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moduleElectronics -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.prakash.automation.businessScripts.FlipkartElectronicsModule@53b32d7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-26T13:12:20Z" finished-at="2018-01-26T13:12:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=moduleElectronics status=SUCCESS method=FlipkartElectronicsModule.moduleElectronics()[pri:0, instance:com.prakash.automation.businessScripts.FlipkartElectronicsModule@53b32d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EndTest()[pri:0, instance:com.prakash.automation.businessScripts.FlipkartElectronicsModule@53b32d7]" name="EndTest" is-config="true" duration-ms="140" started-at="2018-01-26T13:12:20Z" finished-at="2018-01-26T13:12:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndTest -->
+      </class> <!-- com.prakash.automation.businessScripts.FlipkartElectronicsModule -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
